@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{	
+	int i=1;
+	
+	while (i < 6) {
+		int cir = 1;
+		while (cir < i) {
+			printf("o");
+			cir++;
+		}
+		printf("*\n");
+		i++;
+	}
+	return 0;
+}
