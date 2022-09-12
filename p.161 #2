@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{	
+	int i = 2;
+	int k = 1;
+	int total = 0;
+	do
+	{
+		total += i * k;
+		k++;
+	} while (k < 51);
+	printf("합: %d", total);
+	return 0;
+}
